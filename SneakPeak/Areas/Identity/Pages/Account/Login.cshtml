@@ -1,0 +1,49 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Log in";
+
+    Layout = "~/Areas/Identity/Pages/_AuthLayout.cshtml";
+}
+
+<div class="wrapper" style="background-image: url('~/images/bg-registration-form-1.jpg');">
+			<div class="inner">
+				<div class="image-holder">
+            <img src="~/images/registration-form-1.jpg" alt="">
+				</div>
+        <form id="account" method="post">
+			<h3>Login Form</h3>
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-wrapper">
+                <label asp-for="Input.Email" class="form-label">Email</label>
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="Input.Password" class="form-label">Password</label>
+                <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" placeholder="password" />
+               
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <label asp-for="Input.RememberMe" class="form-label">
+                    <input class="form-check-input" asp-for="Input.RememberMe" />
+                    @Html.DisplayNameFor(m => m.Input.RememberMe)
+                </label>
+            </div>
+            
+            <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Log in <i class="zmdi zmdi-arrow-right"></i></button>
+          
+            <div>
+                <p>
+                    <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                </p>
+            </div>
+				</form>
+			</div>
+		</div>
+
+
+

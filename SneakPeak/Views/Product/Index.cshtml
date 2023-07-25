@@ -1,0 +1,43 @@
+﻿@model IEnumerable<SneakPeak.Models.Product>
+@{
+    ViewData["Title"] = "Shop";
+}
+
+
+<div class="custom-border-bottom py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-0"><a href="/">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Shop</strong></div>
+        </div>
+    </div>
+</div>
+
+
+<div class="site-section">
+    <div class="container">
+
+        <div class="row mb-5">
+            <div class="col-md-12 order-1">
+                <div class="row mb-5">
+
+                 @{ int i = 0; }
+                    @foreach (var item in Model)
+                    {
+                       
+                    <div class="col-lg-4 col-md-4 item-entry mb-4">
+                            <a href="shop/product/@Html.DisplayFor(modelItem => item.Id)" class="product-item md-height bg-gray d-block">
+                            <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" alt="Image" class="img-fluid">
+                        </a>
+                            <h2 class="item-title"><a href="shop/product/@Html.DisplayFor(modelItem => item.Id)">@Html.DisplayFor(modelItem => item.Name)</a></h2>
+                            <strong class="item-price">$@Html.DisplayFor(modelItem => item.Price)</strong>
+                    </div>
+                    }
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+

@@ -1,0 +1,905 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SneakPeak.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SneakPeak.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\css1\\style.css",
+      "PackagePath": "staticwebassets\\css1\\style.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\css1\\style.css.map",
+      "PackagePath": "staticwebassets\\css1\\style.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\css1\\style.scss",
+      "PackagePath": "staticwebassets\\css1\\style.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\images\\bg-registration-form-1.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-registration-form-1.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\images\\registration-form-1.jpg",
+      "PackagePath": "staticwebassets\\images\\registration-form-1.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\css\\aos.css",
+      "PackagePath": "staticwebassets\\web\\css\\aos.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\web\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\web\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\css\\bootstrap\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\web\\css\\bootstrap\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\css\\bootstrap\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\web\\css\\bootstrap\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\web\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\web\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\web\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\web\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\css\\style.css",
+      "PackagePath": "staticwebassets\\web\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\fonts\\icomoon\\Read Me.txt",
+      "PackagePath": "staticwebassets\\web\\fonts\\icomoon\\Read Me.txt"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\fonts\\icomoon\\demo-files\\demo.css",
+      "PackagePath": "staticwebassets\\web\\fonts\\icomoon\\demo-files\\demo.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\fonts\\icomoon\\demo-files\\demo.js",
+      "PackagePath": "staticwebassets\\web\\fonts\\icomoon\\demo-files\\demo.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\fonts\\icomoon\\demo.html",
+      "PackagePath": "staticwebassets\\web\\fonts\\icomoon\\demo.html"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\web\\fonts\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\web\\fonts\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\web\\fonts\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\web\\fonts\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\fonts\\icomoon\\selection.json",
+      "PackagePath": "staticwebassets\\web\\fonts\\icomoon\\selection.json"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\fonts\\icomoon\\style.css",
+      "PackagePath": "staticwebassets\\web\\fonts\\icomoon\\style.css"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\about_1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\about_1.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\about_1.png",
+      "PackagePath": "staticwebassets\\web\\images\\about_1.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\blog_1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\blog_1.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\children.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\children.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\cloth_1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\cloth_1.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\cloth_2.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\cloth_2.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\cloth_3.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\cloth_3.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\hero_1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\hero_1.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\hero_1.png",
+      "PackagePath": "staticwebassets\\web\\images\\hero_1.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\hero_2.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\hero_2.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\men.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\men.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\model_1.png",
+      "PackagePath": "staticwebassets\\web\\images\\model_1.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\model_2.png",
+      "PackagePath": "staticwebassets\\web\\images\\model_2.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\model_3.png",
+      "PackagePath": "staticwebassets\\web\\images\\model_3.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\model_4.png",
+      "PackagePath": "staticwebassets\\web\\images\\model_4.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\model_5.png",
+      "PackagePath": "staticwebassets\\web\\images\\model_5.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\model_6.png",
+      "PackagePath": "staticwebassets\\web\\images\\model_6.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\model_7.png",
+      "PackagePath": "staticwebassets\\web\\images\\model_7.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\person_1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\person_1.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\person_2.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\person_2.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\person_3.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\person_3.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\person_4.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\person_4.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\prod_1.png",
+      "PackagePath": "staticwebassets\\web\\images\\prod_1.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\prod_2.png",
+      "PackagePath": "staticwebassets\\web\\images\\prod_2.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\prod_3.png",
+      "PackagePath": "staticwebassets\\web\\images\\prod_3.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\shoe.png",
+      "PackagePath": "staticwebassets\\web\\images\\shoe.png"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\shoe_1.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\shoe_1.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\images\\women.jpg",
+      "PackagePath": "staticwebassets\\web\\images\\women.jpg"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\js\\aos.js",
+      "PackagePath": "staticwebassets\\web\\js\\aos.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\js\\main.js",
+      "PackagePath": "staticwebassets\\web\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\web\\js\\slick.min.js"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\.DS_Store",
+      "PackagePath": "staticwebassets\\web\\scss\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\_site-base.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\_site-base.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\_site-blocks.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\_site-blocks.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\_site-navbar.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\_site-navbar.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\.DS_Store",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\.DS_Store"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_code.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_code.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_custom-forms.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_custom-forms.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_input-group.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_input-group.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_jumbotron.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_jumbotron.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_media.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_media.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_print.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_print.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_background-variant.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_background-variant.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_float.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_float.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_grid-framework.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_grid-framework.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_nav-divider.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_nav-divider.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_screen-reader.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_size.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_size.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_table-row.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_table-row.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_text-emphasis.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_text-emphasis.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_text-hide.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_text-hide.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\mixins\\_visibility.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\mixins\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_align.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_align.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_background.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_background.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_borders.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_borders.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_clearfix.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_display.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_display.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_embed.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_embed.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_flex.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_flex.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_float.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_float.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_position.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_position.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_screenreaders.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_screenreaders.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_shadows.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_shadows.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_sizing.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_sizing.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_spacing.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_spacing.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_text.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_text.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\bootstrap\\utilities\\_visibility.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\bootstrap\\utilities\\_visibility.scss"
+    },
+    {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\Project\\SneakPeak\\SneakPeak\\wwwroot\\web\\scss\\style.scss",
+      "PackagePath": "staticwebassets\\web\\scss\\style.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SneakPeak.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.SneakPeak.props",
+      "PackagePath": "build\\SneakPeak.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SneakPeak.props",
+      "PackagePath": "buildMultiTargeting\\SneakPeak.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.SneakPeak.props",
+      "PackagePath": "buildTransitive\\SneakPeak.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

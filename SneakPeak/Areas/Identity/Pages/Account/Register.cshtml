@@ -1,0 +1,47 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Areas/Identity/Pages/_AuthLayout.cshtml";
+}
+
+
+
+<div class="wrapper" style="background-image: url('~/images/bg-registration-form-1.jpg');">
+    <div class="inner">
+        <div class="image-holder">
+            <img src="~/images/registration-form-1.jpg" alt="">
+        </div>
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h3>Registration Form</h3>
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-wrapper">
+                <input asp-for="Input.FirstName" class="form-control" autocomplete="FirstName" aria-required="true" placeholder="Enter your first name" />
+                <i class="zmdi zmdi-email"></i>
+                <span asp-validation-for="Input.FirstName" style="color:red;" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <input asp-for="Input.LastName" class="form-control" autocomplete="LastName" aria-required="true" placeholder="Enter your last name" />
+                <i class="zmdi zmdi-email"></i>
+                <span asp-validation-for="Input.LastName" style="color:red;" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <i class="zmdi zmdi-email"></i>
+                <span asp-validation-for="Input.Email" style="color:red;" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <i class="zmdi zmdi-lock"></i>
+                <span asp-validation-for="Input.Password" style="color:red;" class="text-danger"></span>
+            </div>
+            <div class="form-wrapper">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <i class="zmdi zmdi-lock"></i>
+                <span asp-validation-for="Input.ConfirmPassword" style="color:red;" class="text-danger"></span>
+            </div>
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register <i class="zmdi zmdi-arrow-right"></i></button>
+        </form>
+    </div>
+ 
+</div>

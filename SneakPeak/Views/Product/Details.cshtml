@@ -1,0 +1,64 @@
+﻿@model SneakPeak.Models.Product
+@{
+    ViewData["Title"] = "Product Details";
+}
+<div class="bg-light py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-0"><a href="/">Home</a> <span class="mx-2 mb-0">/</span> <a href="/shop">Shop</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">@Html.DisplayFor(model => model.Name)</strong></div>
+        </div>
+    </div>
+</div>
+
+<div class="site-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="item-entry">
+                    <a href="#" class="product-item md-height bg-gray d-block">
+                        <img src="@Html.DisplayFor(model => model.ImageUrl)" alt="Image" class="img-fluid">
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-black">@Html.DisplayFor(model => model.Name)</h2>
+                <p><strong>@Html.DisplayNameFor(model => model.Description)</strong></p>
+                <p>@Html.DisplayFor(model => model.Description)</p>
+                <p><strong class="text-primary h4">$@Html.DisplayFor(model => model.Price)</strong></p>
+               
+                <div class="mb-1 d-flex">
+                    <label for="option-sm" class="d-flex mr-3 mb-3">
+                        <span class="d-inline-block mr-2" style="top:-2px; position: relative;">@Html.DisplayNameFor(model => model.Brand)</span> <span class="d-inline-block text-black">@Html.DisplayFor(model => model.Brand)</span>
+                    </label>
+                </div>
+
+                <p>
+                    <a onclick="add(@Model.Id)" class="btn btn-primary">Add to Cart</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+       
+        async function add(productId){
+            try{
+                var response = await fetch(`/Cart/AddItem/${productId}`);
+            var result = await response.json();
+            console.log(result);
+            var cartCountEL = document.getElementById("cartCount");
+            cartCountEL.innerHTML=result;
+            }
+            catch(err){
+                console.log(err);
+            }
+
+        }
+
+    </script>
+}
+

@@ -1,0 +1,73 @@
+﻿@Model Order
+@{
+    ViewData["Title"] = "Order";
+    ViewBag.total = 0;
+}
+
+<div class="bg-light py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Cart</strong></div>
+        </div>
+    </div>
+</div>
+@{
+    decimal total = 0;
+
+    <div class="site-section">
+        <div class="container">
+            <div class="row mb-5">
+
+                @if (Model != null && Model.Count>0)
+                {
+                    <form class="col-md-12" method="post">
+                        <div class="site-blocks-table">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th class="product-name">OrderId</th>
+                                        <th class="product-thumbnail">OrderDate</th>
+                                        <th class="product-name">OrderStatus</th>
+                                        <th class="product-name">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+
+
+                                    @foreach (var order in Model)
+                                    {
+
+                                        <tr>
+                                            <td class="product-thumbnail">
+                                                @order.Id
+                                            </td>
+                                            <td>
+                                                @order.CreatedDate
+                                            </td>
+                                            <td>@order.OrderStatus</td>
+                                            @if(order.LineItems!=null && order.LineItems.Count>0){
+                                            <td>
+                                            </td>
+                                            }
+                                         </tr>
+
+
+                                    }
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                }
+                else
+                {
+                    <h3>No Orders</h3>
+                }
+            </div>
+
+            
+        </div>
+    </div>
+}
