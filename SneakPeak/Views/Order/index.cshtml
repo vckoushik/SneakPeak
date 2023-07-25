@@ -1,4 +1,6 @@
-﻿@Model Order
+﻿<div style="display:none;">
+@Model Order
+</div>
 @{
     ViewData["Title"] = "Order";
     ViewBag.total = 0;
@@ -28,7 +30,7 @@
                                         <th class="product-name">OrderId</th>
                                         <th class="product-thumbnail">OrderDate</th>
                                         <th class="product-name">OrderStatus</th>
-                                        <th class="product-name">Action</th>
+                                        
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -46,10 +48,8 @@
                                                 @order.CreatedDate
                                             </td>
                                             <td>@order.OrderStatus</td>
-                                            @if(order.LineItems!=null && order.LineItems.Count>0){
-                                            <td>
-                                            </td>
-                                            }
+                                           
+                                          
                                          </tr>
 
 
