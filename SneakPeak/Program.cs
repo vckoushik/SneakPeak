@@ -31,17 +31,6 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireNonAlphanumeric=false;
 });
 
-builder.Services.Configure<CookiePolicyOptions>(options =>
-{
-    options.MinimumSameSitePolicy = SameSiteMode.None; // Allow cross-site requests
-    options.HttpOnly = HttpOnlyPolicy.None; // Allow JavaScript to access cookies
-    options.Secure = CookieSecurePolicy.Always; // Only send cookies over HTTPS
-
-});
-builder.Services.ConfigureApplicationCookie(options =>
-{
-    options.Cookie.SameSite = SameSiteMode.None;
-});
 
 var app = builder.Build(); //App to configure project
 
