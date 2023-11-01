@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Product>
+
+<div class="card shadow border-0 mt-4">
+	<div class="card-header bg-secondary bg-gradient ml-0 py-3">
+		<div class="row">
+			<div class="col-12 text-center">
+				<h1 class="text-white">Product List</h1>
+			</div>
+		</div>
+	</div>
+	<div class="card-body p-4">
+		<div class="row pb-3">
+			<div class="col-6 text-end">
+				<a class="btn btn-outline-primary" asp-action="ProductCreate"><i class="bi bi-plus-square"></i> Create New Product</a>
+			</div>
+		</div>
+		<table class="table">
+			<thead>
+				<tr>
+					<th>
+						Id
+					</th>
+					<th>
+						Name
+					</th>
+					<th>
+						Description
+					</th>
+					<th>
+						Price
+					</th>
+					<th>
+						Brand
+					</th>
+					<th>
+						Color
+					</th>
+					<th>
+						InStock
+					</th>
+					<th>
+						Category
+					</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var product in Model)
+				{
+					<tr>
+
+						<td>
+							@product.Id
+						</td>
+						<td> 
+							@product.Name
+						</td>
+						<td>
+							@product.Description
+						</td>
+						<td>
+							@product.Price
+						</td>
+						<td>
+							@product.Brand
+						</td>
+						<td>
+							@product.Color
+						</td>
+						<td>
+							@product.IsInStock
+						</td>
+						<td>
+							@product.Category
+						</td>
+						<td><a href="/admin/RemoveItem/@product.Id"><i class="bi bi-trash"></i></a></td>
+
+						
+
+					</tr>
+				}
+			</tbody>
+		</table>
+
+	</div>
+
+</div>

@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\images\\bg-registration-form-1.jpg"
     },
     {
+      "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\SneakPeak\\SneakPeak\\SneakPeak\\wwwroot\\images\\red-sneakers-wooden-background.jpg",
+      "PackagePath": "staticwebassets\\images\\red-sneakers-wooden-background.jpg"
+    },
+    {
       "Id": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\SneakPeak\\SneakPeak\\SneakPeak\\wwwroot\\images\\registration-form-1.jpg",
       "PackagePath": "staticwebassets\\images\\registration-form-1.jpg"
     },

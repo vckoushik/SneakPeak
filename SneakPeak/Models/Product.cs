@@ -5,7 +5,7 @@ namespace SneakPeak.Models
 {
     public class Product
     {
-        
+        [Key]
         public int Id { get; set; }
         [Required]
         public string Name { get; set; }
@@ -30,8 +30,7 @@ namespace SneakPeak.Models
 
         public string ImageUrl { get; set; }
 
-
-
+        public string Category { get; set; }
 
     }
 }

@@ -26,9 +26,8 @@
                             @Html.HiddenFor(n => n.Id)
                             <div class="card">
                                 <div class="card-body">
-                                    <h5 class="card-title" name="Id" asp-for="@Model.Id">@Model.Id</h5>
-                                    <p class="card-text">Cart Details</p>
-                                    <p class="card-text"><small class="text-muted">UserID: @Model.UserId</small></p>
+                                    <h3 class="card-text" style="font-weight:bold">Cart Details</h3>
+                                  
                                     @foreach (var item in Model.Items)
                                     {
                                         <img style="width: 90%" class="card-img-bottom" src="@item.Product.ImageUrl" alt="Card image cap">
@@ -38,7 +37,6 @@
                                         <p class="card-text"><small class="text-muted">Product Name: @item.TotalAmount</small></p>
 
                                         total += item.Quantity * item.Product.Price;
-
                                     }
 
                                 </div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HGBrjeUw6SikjySwMMMESy0l1og+ot108zMajzBuezA=",
+  "Hash": "u3jKFTwNAGMmQRyR26beHjJCeiG7IwQNeVjttyOyCmY=",
   "Source": "SneakPeak",
   "BasePath": "_content/SneakPeak",
   "Mode": "Default",
@@ -1324,6 +1324,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\bg-registration-form-1.jpg"
+    },
+    {
+      "Identity": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\SneakPeak\\SneakPeak\\SneakPeak\\wwwroot\\images\\red-sneakers-wooden-background.jpg",
+      "SourceId": "SneakPeak",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\SneakPeak\\SneakPeak\\SneakPeak\\wwwroot\\",
+      "BasePath": "_content/SneakPeak",
+      "RelativePath": "images/red-sneakers-wooden-background.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-sneakers-wooden-background.jpg"
     },
     {
       "Identity": "D:\\Koushik\\Workspace\\Courses\\Secure Ecommerce\\SneakPeak\\SneakPeak\\SneakPeak\\wwwroot\\images\\registration-form-1.jpg",

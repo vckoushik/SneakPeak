@@ -13,7 +13,7 @@
 </div>
 
 
-<div class="site-section">
+<div class="site-section" style="background-color:#E3F2FD">
     <div class="container">
 
         <div class="row mb-5">
@@ -24,7 +24,7 @@
                     @foreach (var item in Model)
                     {
                        
-                    <div class="col-lg-4 col-md-4 item-entry mb-4">
+                        <div class="col-lg-4 col-md-4 item-entry mb-4" >
                             <a href="shop/product/@Html.DisplayFor(modelItem => item.Id)" class="product-item md-height bg-gray d-block">
                             <img src="@Html.DisplayFor(modelItem => item.ImageUrl)" alt="Image" class="img-fluid">
                         </a>

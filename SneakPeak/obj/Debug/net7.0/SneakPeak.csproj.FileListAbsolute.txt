@@ -526,3 +526,9 @@ D:\Koushik\Workspace\Courses\Secure Ecommerce\SneakPeak\SneakPeak\SneakPeak\obj\
 D:\Koushik\Workspace\Courses\Secure Ecommerce\SneakPeak\SneakPeak\SneakPeak\obj\Debug\net7.0\SneakPeak.pdb
 D:\Koushik\Workspace\Courses\Secure Ecommerce\SneakPeak\SneakPeak\SneakPeak\obj\Debug\net7.0\SneakPeak.genruntimeconfig.cache
 D:\Koushik\Workspace\Courses\Secure Ecommerce\SneakPeak\SneakPeak\SneakPeak\obj\Debug\net7.0\ref\SneakPeak.dll
+D:\Koushik\Workspace\Courses\Secure Ecommerce\SneakPeak\SneakPeak\SneakPeak\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+D:\Koushik\Workspace\Courses\Secure Ecommerce\SneakPeak\SneakPeak\SneakPeak\bin\Debug\net7.0\MailKit.dll
+D:\Koushik\Workspace\Courses\Secure Ecommerce\SneakPeak\SneakPeak\SneakPeak\bin\Debug\net7.0\MimeKit.dll
+D:\Koushik\Workspace\Courses\Secure Ecommerce\SneakPeak\SneakPeak\SneakPeak\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\Koushik\Workspace\Courses\Secure Ecommerce\SneakPeak\SneakPeak\SneakPeak\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+D:\Koushik\Workspace\Courses\Secure Ecommerce\SneakPeak\SneakPeak\SneakPeak\bin\Debug\net7.0\NETCore.MailKit.dll

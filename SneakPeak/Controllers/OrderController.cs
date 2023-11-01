@@ -25,8 +25,18 @@ namespace SneakPeak.Controllers
         {
    
             var orders = await _orderRepo.UserOrders();
+            
            
             return View(orders);
+        }
+
+        [Route("UserOrders/{orderId:int}")]
+        public async Task<IActionResult> OrderDetails(int orderId)
+        {
+
+            var order = await _orderRepo.UserOrdersById(orderId);
+
+            return View(order);
         }
     }
 }

@@ -31,7 +31,34 @@ namespace SneakPeak.Repo
                             .ThenInclude(x => x.product)
                             .Where(a => a.UserId == userId)
                             .ToListAsync();
+            orders.Reverse();
             return orders;
+        }
+        public async Task<IEnumerable<Order>> GetOrders()
+        {
+            var userId = GetUserId();
+            if (string.IsNullOrEmpty(userId))
+                throw new Exception("User is not logged-in");
+            var orders = await _db.Order
+                            .Include(x => x.LineItems)
+                            .ThenInclude(x => x.product)
+                            .ToListAsync();
+            orders.Reverse();
+            return orders;
+        }
+
+        public async Task<Order> UserOrdersById(int OrderId)
+        {
+            var userId = GetUserId();
+            if (string.IsNullOrEmpty(userId))
+                throw new Exception("User is not logged-in");
+            var order = await _db.Order
+                            .Include(x => x.LineItems)
+                            .ThenInclude(x => x.product)
+                            .Where(a => a.UserId == userId && a.Id == OrderId)
+                            .FirstOrDefaultAsync();
+                       
+            return order;
         }
 
         private string GetUserId()

@@ -1,8 +1,10 @@
 using Microsoft.AspNetCore.CookiePolicy;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using SneakPeak.Areas.Identity.Data;
 using SneakPeak.Data;
+using SneakPeak.Models;
 using SneakPeak.Repo;
 using SneakPeak.Services;
 
@@ -12,6 +14,8 @@ var connectionString = builder.Configuration.GetConnectionString("SneakPeakDbCon
 
 builder.Services.AddDbContext<SneakPeakDbContext>(options => options.UseSqlServer(connectionString));
 
+var emailConfig = builder.Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
+builder.Services.AddSingleton(emailConfig);
 
 builder.Services.AddDefaultIdentity<SneakPeakUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<SneakPeakDbContext>().AddDefaultTokenProviders();
 
@@ -23,9 +27,14 @@ builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 
 builder.Services.AddTransient<ICartRepository,CartRepository>();
+builder.Services.AddTransient<IWishlistRepository, WishlistRepository>();
 builder.Services.AddTransient<IOrderRepository, OrderRepository>();
 builder.Services.AddTransient<IAddressRepository, AddressRepository>();
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
+
 builder.Services.AddTransient<IBraintreeService, BraintreeService>();
+builder.Services.AddTransient<IMailService, MailService>();
+builder.Services.Configure<MailSettings>(builder.Configuration.GetSection("MailSettings"));
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequireNonAlphanumeric=false;

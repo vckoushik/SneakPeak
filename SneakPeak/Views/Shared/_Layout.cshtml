@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="~/web/css/jquery-ui.css">
     <link rel="stylesheet" href="~/web/css/owl.carousel.min.css">
     <link rel="stylesheet" href="~/web/css/owl.theme.default.min.css">
-
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
     <link rel="stylesheet" href="~/web/css/aos.css">
 
@@ -88,6 +89,9 @@
                             <span class="icon-shopping-bag"></span>
                             <span id="cartCount"class="number">0</span>
                         </a>
+                        <a href="/Wishlist/GetUserWishlist" class="icons-btn d-inline-block bag">
+                            <span class="icon-heart"></span>
+                        </a>
                         <a href="#" class="site-menu-toggle js-menu-toggle ml-3 d-inline-block d-lg-none"><span class="icon-menu"></span></a>
                     </div>
                 </div>
@@ -96,7 +100,7 @@
 
         
         @RenderBody()
-
+        <partial name="_Notifications" />
         <footer class="site-footer custom-border-top">
             <div class="container">
                 <div class="row">
@@ -104,8 +108,8 @@
                         <h3 class="footer-heading mb-4">Promo</h3>
                         <a href="#" class="block-6">
                             <img src="~/web/images/about_1.jpg" alt="Image placeholder" class="img-fluid rounded mb-4">
-                            <h3 class="font-weight-light  mb-0">Finding Your Sneakers This Summer</h3>
-                            <p>Promo from  July 15 &mdash; 25, 2019</p>
+                            <h3 class="font-weight-light  mb-0" >Finding Your Sneakers This Summer</h3>
+                            <p>Offers from October</p>
                         </a>
                     </div>
                     <div class="col-lg-5 ml-auto mb-5 mb-lg-0">

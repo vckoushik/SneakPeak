@@ -1,0 +1,80 @@
+﻿<div style="display:none;">
+@Model Order
+</div>
+@{
+    ViewData["Title"] = "Order";
+    ViewBag.total = 0;
+}
+
+<div class="bg-light py-3" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Order</strong></div>
+        </div>
+    </div>
+</div>
+@{
+    decimal total = 0;
+
+    <div class="site-section" style="background-color:#E3F2FD">
+        <div class="container">
+            <h1 style="text-align:center;font-weight:bold;color:black">My Orders</h1>
+            <br />
+            <div class="row mb-5">
+
+                @if (Model != null && Model.Count>0)
+                {
+                    <form class="col-md-12" method="post">
+                        <div class="site-blocks-table" style="background-color:white">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th class="product-name">OrderId</th>
+                                        <th class="product-thumbnail">OrderDate</th>
+                                        <th class="product-name">OrderStatus</th>
+                                        <th class="product-name">View</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+
+
+                                    @foreach (var order in Model)
+                                    {
+
+                                        <tr>
+                                            <td class="product-thumbnail">
+                                                @order.Id
+                                            </td>
+                                            <td>
+                                                @order.CreatedDate
+                                            </td>
+                                            <td>@order.OrderStatus</td>
+                                            <td>
+                                                <a class="btn btn-warning height-auto btn-sm" href="/admin/EditOrder/@order.Id"><i class="bi bi-pencil-square"></i></a>
+                                                <a href="/Order/UserOrders/@order.Id" class="btn btn-primary height-auto btn-sm"><i class="bi bi-eye"></i></a>
+                                                <a class="btn btn-danger height-auto btn-sm" href="/admin/RemoveOrder/@order.Id"><i class="bi bi-trash"></i></a>
+
+                                            </td>
+                                          
+                                         </tr>
+
+
+                                    }
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                }
+                else
+                {
+                    <h3>No Orders</h3>
+                }
+            </div>
+
+            
+        </div>
+    </div>
+}

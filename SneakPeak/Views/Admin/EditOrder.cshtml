@@ -1,0 +1,51 @@
+﻿@model Order
+<form asp-action="UpdateOrder" asp-controller="Admin" method="post">
+    <br />
+    <div class="container border p-3">
+        <h1 class="text-black text-center">Edit Order</h1>
+
+        <hr />
+        <div class="row">
+            <div class="col-2">
+                <label class="control-label pt-2" style="font-size:20px;">Order Id</label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="Id" class="form-control" autocomplete="off" disabled />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label class="control-label pt-2" style="font-size:20px;">UserID</label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="UserId" class="form-control" autocomplete="off" disabled />
+                <span asp-validation-for="UserId" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label class="control-label pt-2" style="font-size:20px;">CreatedDate</label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="CreatedDate" class="form-control" autocomplete="off"disabled />
+                <span asp-validation-for="CreatedDate" class="text-danger"></span>
+            </div>
+            <div class="col-2">
+                <label class="control-label pt-2" style="font-size:20px;">OrderStatus</label>
+            </div>
+            <div class="col-10 pb-3">
+                <input asp-for="OrderStatus" class="form-control" autocomplete="off" />
+                <span asp-validation-for="OrderStatus" class="text-danger"></span>
+            </div>
+            <input asp-for="Id" class="form-control" autocomplete="off" hidden />
+            <div class="col-5 offset-2">
+                <a class="btn-primary btn form-control" asp-action="OrderIndex">Back to List</a>
+            </div>
+            <div class="col-5">
+                <input type="submit" value="Update" class="btn btn-success form-control" />
+            </div>
+
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -24,6 +24,8 @@ public class SneakPeakDbContext : IdentityDbContext<SneakPeakUser>
     public DbSet<OrderLineItem> OrderLineItem { get; set; }
 
     public DbSet<Cart> Cart { get; set; }
+    public DbSet<Wishlist> Wishlist { get; set; }
+    public DbSet<WishlistItems> WishlistItems { get; set; }
     public DbSet<CartItem> CartItem { get; set; }
     public DbSet<Category> Category { get; set; }
     public DbSet<Address> Address { get; set; }
