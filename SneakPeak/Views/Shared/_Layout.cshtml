@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@using SneakPeak.Areas.Identity.Data
+@inject SignInManager<SneakPeakUser> SignInManager
+@inject UserManager<SneakPeakUser> UserManager
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <title>SneakPeak</title>
@@ -69,14 +73,18 @@
                     <div class="main-nav d-none d-lg-block">
                         <nav class="site-navigation text-right text-md-center" role="navigation">
                             <ul class="site-menu js-clone-nav d-none d-lg-block">
-                                <li class="@(ViewData["Title"] == "Home Page" ? "active" : "")">
-                                    <a href="/">Home</a>
-                                </li>
-
-                                <li class="@(ViewData["Title"] == "Shop" ? "active" : "")" ><a href="/shop">Shop</a></li>
-                                <li class="@(ViewData["Title"] == "Order" ? "active" : "")"><a href="/order/userorders">Order</a></li>
-                                 <li class="@(ViewData["Title"] == "Address" ? "active" : "")"><a href="/address">Address</a></li>
-                                <li class="@(ViewData["Title"] == "Contact" ? "active" : "")"><a href="/contact">Contact</a></li>
+                                @if (UserManager.GetUserName(User).Equals("Test@gmail.com"))
+                                {
+                                    <li class="@(ViewData["Title"] == "Shop" ? "active" : "")"><a href="/shop">Shop</a></li>
+                                    <li class="@(ViewData["Title"] == "Products" ? "active" : "")"><a href="/admin/productindex">Products</a></li>
+                                    <li class="@(ViewData["Title"] == "Order" ? "active" : "")"><a href="/admin/orderindex">Orders</a></li>
+                                }
+                                else{
+                                    <li class="@(ViewData["Title"] == "Shop" ? "active" : "")" ><a href="/shop">Shop</a></li>
+                                    <li class="@(ViewData["Title"] == "Order" ? "active" : "")"><a href="/order/userorders">Order</a></li>
+                                     <li class="@(ViewData["Title"] == "Address" ? "active" : "")"><a href="/address">Address</a></li>
+                                    <li class="@(ViewData["Title"] == "Contact" ? "active" : "")"><a href="/contact">Contact</a></li>
+                                }
                                 <partial name="_LoginPartial.cshtml" />
                             </ul>
                            

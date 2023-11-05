@@ -210,6 +210,16 @@ namespace SneakPeak.Repo
             return userId;
 
         }
+        public async Task<string> GetUserEmailAsync()
+        {
+            var user = _httpContextAccessor.HttpContext.User;
+            var userId = _userManager.GetUserId(user);
+            var usr = await _userManager.GetUserAsync(user);
+            var email = usr?.Email;
+
+            return email;
+
+        }
     }
 
 }

@@ -61,10 +61,23 @@ namespace SneakPeak.Repo
             return order;
         }
 
+        public async Task<Order> OrdersById(int OrderId)
+        {
+   
+            var order = await _db.Order
+                            .Include(x => x.LineItems)
+                            .ThenInclude(x => x.product)
+                            .Where(a=>a.Id == OrderId)
+                            .FirstOrDefaultAsync();
+
+            return order;
+        }
+
         private string GetUserId()
         {
             var principal = _httpContextAccessor.HttpContext.User;
             string userId = _userManager.GetUserId(principal);
+           
             return userId;
         }
     }

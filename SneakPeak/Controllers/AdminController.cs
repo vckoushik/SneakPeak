@@ -27,6 +27,7 @@ namespace SneakPeak.Controllers
         [Route("/admin/productindex")]
         public async Task<IActionResult> ProductIndex()
         {
+
             var products = await _productRepository.GetProducts();
 
             return View(products);
@@ -111,7 +112,6 @@ namespace SneakPeak.Controllers
         [Route("/admin/UpdateOrder")]
         public async Task<IActionResult> UpdateOrder(Order order)
         {
-            
                
                 Order Org = await _db.Order.FindAsync(order.Id);
 
@@ -124,6 +124,15 @@ namespace SneakPeak.Controllers
                 TempData["success"] = "Order Updated Successfully";
                 return RedirectToAction(nameof(OrderIndex));
             
+        }
+
+        [Route("/admin/Order/{orderId:int}")]
+        public async Task<IActionResult> OrderDetails(int orderId)
+        {
+
+            var order = await _orderRepository.OrdersById(orderId);
+
+            return View(order);
         }
 
     }

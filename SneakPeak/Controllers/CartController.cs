@@ -2,7 +2,9 @@
 using Braintree;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using SneakPeak.Areas.Identity.Data;
 using SneakPeak.Data;
 using SneakPeak.Models;
 using SneakPeak.Repo;
@@ -30,8 +32,8 @@ namespace SneakPeak.Controllers
             _cartRepo  = cartRepo;
             _braintreeService = braintreeService;
             _addressRepository = addressRepository; 
-            _mailService = mailService; 
-            
+            _mailService = mailService;
+
         }
 
 
@@ -86,11 +88,8 @@ namespace SneakPeak.Controllers
             var clientToken = gateway.ClientToken.Generate();  //Genarate a token
             ViewBag.ClientToken = clientToken;
 
-
             var cart = await _cartRepo.GetUserCart();
-            
-
-
+           
             var data = new OrderPurchaseVM
             {
                 Id = cart.Id,
@@ -99,6 +98,10 @@ namespace SneakPeak.Controllers
                 Address=address,
                 Nonce = ""
             };
+            if(address == null)
+            {
+                return RedirectToAction("Address", "Home");
+            }
 
             return View(data);
 
@@ -189,8 +192,9 @@ namespace SneakPeak.Controllers
 ";
 
                 // You can use the 'emailTemplate' string in your code to generate emails.
-
-                Message message = new Message(new string[] { "koushiksiva9@gmail.com" }, "SneakPeak - Order Places Successfully", emailTemplate);
+                var userEmail = await _cartRepo.GetUserEmailAsync();
+                //var uname=await _userManager.GetUserNameAsync(this.User);
+                Message message = new Message(new string[] { userEmail }, "SneakPeak - Order Places Successfully", emailTemplate);
                 bool value = _mailService.SendEmail(message);
                 return RedirectToAction("ThankYou", "Home");
             }

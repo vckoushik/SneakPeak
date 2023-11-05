@@ -9,5 +9,6 @@ namespace SneakPeak.Repo
         Task<Cart> GetUserCart();
         Task<int> GetCartItemsCount(string userId = "");
         Task<bool> DoCheck();
-      }
+        Task<string> GetUserEmailAsync();
+    }
 }
