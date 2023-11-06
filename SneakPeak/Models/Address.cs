@@ -27,7 +27,7 @@ namespace SneakPeak.Models
         public string Country { get; set; }
 
         [Required(ErrorMessage = "Phone is required.")]
-        [DataType(DataType.PhoneNumber)]
+        [RegularExpression(@"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$", ErrorMessage = "Entered mobile format is not valid.")]
         public string Phone { get; set; }
 
         [Required(ErrorMessage = "Email is required.")]

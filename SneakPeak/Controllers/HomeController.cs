@@ -6,6 +6,8 @@ using SneakPeak.Areas.Identity.Data;
 using SneakPeak.Models;
 using SneakPeak.Repo;
 using System.Diagnostics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Text.RegularExpressions;
 
 namespace SneakPeak.Controllers
 {
@@ -65,11 +67,22 @@ namespace SneakPeak.Controllers
             try
             {
                 Address addressEx = await _addressRepository.UserAddress();
+
                 if (addressEx != null) { address.Id = addressEx.Id; }
                 else { address.Id = 0; }
+                bool res = IsPhoneValid(address.Phone);
+                if (res)
+                {
+                    await _addressRepository.SaveAddress(address);
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+             
+                    return RedirectToAction("Address", "Home");
+                }
 
-                await _addressRepository.SaveAddress(address);
-                return RedirectToAction("Index", "Home");
+                
             }
             catch(Exception)
             {
@@ -90,6 +103,14 @@ namespace SneakPeak.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public static bool IsPhoneValid(string phoneNumber)
+        {
+            string regex = @"^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$";
+            if (phoneNumber != null)
+                return Regex.IsMatch(phoneNumber, regex);
+            else return false;
         }
     }
 }

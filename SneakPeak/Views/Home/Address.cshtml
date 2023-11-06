@@ -1,64 +1,80 @@
 ﻿@model SneakPeak.Models.Address
 
-<div  style="background-color:#E3F2FD;padding-top:20px;padding-left:30%;padding-bottom:20px;">
-@using (Html.BeginForm("SaveAddress", "Home", FormMethod.Post))
-{
+<div  style="background-color:#E3F2FD;padding-top:20px;padding-left:20%;padding-right:20%;padding-bottom:20px;">
+    <div class="container-fluid" style="padding-top:5%;padding-bottom:5%;background-color:white">
+<form asp-action="SaveAddress" asp-controller="Home" method="post" style="margin-left:20%;width:inherit">
+
     @Html.AntiForgeryToken()
     <div class="col-md-6 mb-5 mb-md-0 ml-5">
         <h2 style="font-weight:700;color:black;text-align:center">Address Form</h2>
-    <div class="form-group row">
+    <div class="form-group">
             <div class="col-md-12">
-        @Html.LabelFor(model => model.FirstName)
-        @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+                <label for="FirstName" class="text-black">First Name <span class="text-danger">*</span></label>
+                <input asp-for="FirstName" class="form-control" autocomplete="off"  />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+    </div>
+
+    <div class="form-group">
+                <div class="col-md-12">
+                    <label for="LastName" class="text-black">Last Name <span class="text-danger">*</span></label>
+                    <input asp-for="LastName" class="form-control" autocomplete="off" />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-12">
+                    <label for="Street" class="text-black">Street <span class="text-danger">*</span></label>
+                    <input asp-for="Street" class="form-control" autocomplete="off" />
+                    <span asp-validation-for="Street" class="text-danger"></span>
         </div>
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.LastName)
-        @Html.TextBoxFor(model => model.LastName, new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+        <div class="col-md-12">
+                    <label for="City" class="text-black">City <span class="text-danger">*</span></label>
+                    <input asp-for="City" class="form-control" autocomplete="off" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+        </div>
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.Street)
-        @Html.TextBoxFor(model => model.Street, new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.Street, "", new { @class = "text-danger" })
+                <div class="col-md-12">
+                    <label for="PostalCode" class="text-black">Postal Code<span class="text-danger">*</span></label>
+                    <input asp-for="PostalCode" class="form-control" autocomplete="off" />
+                    <span asp-validation-for="PostalCode" class="text-danger"></span>
+                </div>
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.City)
-        @Html.TextBoxFor(model => model.City, new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.City, "", new { @class = "text-danger" })
+        <div class="col-md-12">
+                    <label for="Country" class="text-black">Country<span class="text-danger">*</span></label>
+                    <input asp-for="Country" class="form-control" autocomplete="off" />
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.PostalCode)
-        @Html.TextBoxFor(model => model.PostalCode, new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.PostalCode, "", new { @class = "text-danger" })
+                <div class="col-md-12">
+                    <label for="Phone" class="text-black">Phone<span class="text-danger">*</span></label>
+                    <input asp-for="Phone" class="form-control" autocomplete="off" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
     </div>
 
     <div class="form-group">
-        @Html.LabelFor(model => model.Country)
-        @Html.TextBoxFor(model => model.Country, new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.Country, "", new { @class = "text-danger" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.Phone)
-        @Html.TextBoxFor(model => model.Phone, new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
-    </div>
-
-    <div class="form-group">
-        @Html.LabelFor(model => model.Email)
-        @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
-        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                <div class="col-md-12">
+                    <label for="Email" class="text-black">Email <span class="text-danger">*</span></label>
+                    <input asp-for="Email" class="form-control" autocomplete="off" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
     </div>
         <div asp-validation-summary="ModelOnly"></div>
     <div class="form-group">
         <input type="submit" value="Save Address" class="btn btn-primary" />
     </div>
     </div>
-}
+</form>
+    </div>
 </div>
