@@ -1,7 +1,10 @@
-﻿namespace SneakPeak.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace SneakPeak.Models
 {
     public class Wishlist
     {
+        [Key]
         public int Id { get; set; }
 
         // User ID (foreign key) - used to associate the cart with a user (optional)

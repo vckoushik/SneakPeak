@@ -6,5 +6,6 @@ namespace SneakPeak.Repo
     {
         Task<Address> UserAddress();
         Task<bool> SaveAddress(Address address);
+        Task<bool> SaveContact(Contact contact);
     }
 }

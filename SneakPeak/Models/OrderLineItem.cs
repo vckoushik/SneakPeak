@@ -7,6 +7,7 @@ namespace SneakPeak.Models
     public class OrderLineItem
     {
         // Unique identifier for the order line item
+        [Key]
         public int Id { get; set; }
 
         // Order ID (foreign key) - used to associate line item with an order

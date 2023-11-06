@@ -19,7 +19,7 @@ namespace SneakPeak.Repo
             _httpContextAccessor = contextAccessor;
 
         }
-        public async Task<int> AddItem(int productId, int quantity)
+        public async Task<int> AddItem(int productId, int quantity,string size)
         {
             string userId = GetUserId();
             var transaction = _context.Database.BeginTransaction();
@@ -50,6 +50,7 @@ namespace SneakPeak.Repo
                         ProductId = productId, CartId = cart.Id,
                         Quantity = quantity,
                         Product = product,
+                        Size= size,
                         PricePerUnit = product.Price 
                     };
                     _context.CartItem.Add(cartItem);

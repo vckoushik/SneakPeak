@@ -22,7 +22,8 @@ public class SneakPeakDbContext : IdentityDbContext<SneakPeakUser>
     public DbSet<SneakPeak.Models.Product> Product { get; set; } = default!;
     public DbSet<Order> Order { get; set; }
     public DbSet<OrderLineItem> OrderLineItem { get; set; }
-
+   
+    public DbSet<Contact> Contact { get; set; }
     public DbSet<Cart> Cart { get; set; }
     public DbSet<Wishlist> Wishlist { get; set; }
     public DbSet<WishlistItems> WishlistItems { get; set; }

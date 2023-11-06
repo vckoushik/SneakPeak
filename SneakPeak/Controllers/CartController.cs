@@ -47,9 +47,9 @@ namespace SneakPeak.Controllers
 
        
         [Route("AddItem/{productId:int}")]
-        public async Task<IActionResult> AddItem(int productId,int qty=1,int redirect=0)
+        public async Task<IActionResult> AddItem(int productId, [FromQuery] string size,int qty=1,int redirect=0)
         {
-            var cartCount= await _cartRepo.AddItem(productId,qty);
+            var cartCount= await _cartRepo.AddItem(productId,qty,size);
             if (redirect == 0) {
                 TempData["success"] = "Your Product Added to Cart";
                 return Ok(cartCount);

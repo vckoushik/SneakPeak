@@ -39,6 +39,20 @@ namespace SneakPeak.Controllers
         {
             return View();
         }
+
+        [HttpPost("SaveContact")]
+        public async Task<IActionResult> SaveContact(Contact contact)
+        {
+            try
+            {
+                await _addressRepository.SaveContact(contact);
+            }
+            catch(Exception ex)
+            {
+                return RedirectToAction("Contact", "Home");
+            }
+            return RedirectToAction("Index", "Home");
+        }
         [HttpGet("Address")]
         public async Task<IActionResult> Address()
         {
@@ -48,13 +62,19 @@ namespace SneakPeak.Controllers
         [HttpPost("SaveAddress")]
         public async Task<IActionResult> SaveAddress(Address address)
         {
-            Address addressEx = await _addressRepository.UserAddress();
-            if(addressEx != null) { address.Id = addressEx.Id; }
-            else { address.Id = 0; }
-            
-            await _addressRepository.SaveAddress(address);
+            try
+            {
+                Address addressEx = await _addressRepository.UserAddress();
+                if (addressEx != null) { address.Id = addressEx.Id; }
+                else { address.Id = 0; }
+
+                await _addressRepository.SaveAddress(address);
                 return RedirectToAction("Index", "Home");
-            
+            }
+            catch(Exception)
+            {
+                return RedirectToAction("Address", "Home");
+            }
 
             // If the model is not valid, redisplay the form with validation errors
            // return View("Address",address);

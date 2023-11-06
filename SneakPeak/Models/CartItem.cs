@@ -1,15 +1,15 @@
-﻿using Microsoft.Build.Framework;
+﻿
+using System.ComponentModel.DataAnnotations;
 
 namespace SneakPeak.Models
 {
     public class CartItem
     {
         // Unique identifier for the cart item
+        [Key]
         public int Id { get; set; }
         [Required]
-
         public int CartId { get; set; }
-
         [Required]
         public int ProductId { get; set; }
 
@@ -18,6 +18,7 @@ namespace SneakPeak.Models
 
         // Quantity of the product in the cart item
         public int Quantity { get; set; }
+        public string Size { get; set; }
 
         // Price per unit for the product
         public decimal PricePerUnit { get; set; }

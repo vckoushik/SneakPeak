@@ -21,8 +21,19 @@ namespace SneakPeak.Repo
             _httpContextAccessor = httpContextAccessor;
             _userManager = userManager;
         }
+        public async Task<bool> SaveContact(Contact contact)
+        {
+            if (contact == null)
+            {
+                return false;
+            }
+            _db.Contact.Add(contact);
+            _db.SaveChanges();
+            return true;
+        }
+        
 
-        public async Task<Address> UserAddress()
+            public async Task<Address> UserAddress()
         {
             var userId = GetUserId();
             if (string.IsNullOrEmpty(userId))
@@ -31,6 +42,7 @@ namespace SneakPeak.Repo
                             .Where(a => a.UserId == userId).FirstOrDefaultAsync();
             return address;
         }
+
          public async Task<bool> SaveAddress(Address address)
         {
             var userId = GetUserId();

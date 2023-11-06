@@ -1,13 +1,11 @@
 ﻿@model SneakPeak.Models.Address
 
-
-</br></br>
-<div style="background-color:#E3F2FD">
+<div  style="background-color:#E3F2FD;padding-top:20px;padding-left:30%;padding-bottom:20px;">
 @using (Html.BeginForm("SaveAddress", "Home", FormMethod.Post))
 {
     @Html.AntiForgeryToken()
     <div class="col-md-6 mb-5 mb-md-0 ml-5">
-        <h2 style="font-weight:700;color:black">Address Form</h2>
+        <h2 style="font-weight:700;color:black;text-align:center">Address Form</h2>
     <div class="form-group row">
             <div class="col-md-12">
         @Html.LabelFor(model => model.FirstName)
@@ -57,7 +55,7 @@
         @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
         @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
     </div>
-
+        <div asp-validation-summary="ModelOnly"></div>
     <div class="form-group">
         <input type="submit" value="Save Address" class="btn btn-primary" />
     </div>

@@ -7,6 +7,7 @@ namespace SneakPeak.Models
     public class Order
     {
         // Unique identifier for the order
+        [Key]
         public int Id { get; set; }
         [Required] 
         public string UserId { get; set; }

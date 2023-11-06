@@ -4,6 +4,7 @@ namespace SneakPeak.Models
 {
     public class Address
     {
+        [Key]
         public int Id { get; set; }
         public string UserId { get; set; }
 
@@ -26,6 +27,7 @@ namespace SneakPeak.Models
         public string Country { get; set; }
 
         [Required(ErrorMessage = "Phone is required.")]
+        [DataType(DataType.PhoneNumber)]
         public string Phone { get; set; }
 
         [Required(ErrorMessage = "Email is required.")]

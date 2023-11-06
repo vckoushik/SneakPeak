@@ -4,6 +4,7 @@ namespace SneakPeak.Models
 {
     public class WishlistItems
     {
+        [Key]
         public int Id { get; set; }
         [Required]
 

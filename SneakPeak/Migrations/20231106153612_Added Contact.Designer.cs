@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SneakPeak.Data;
 
@@ -11,9 +12,11 @@ using SneakPeak.Data;
 namespace SneakPeak.Migrations
 {
     [DbContext(typeof(SneakPeakDbContext))]
-    partial class SneakPeakDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231106153612_Added Contact")]
+    partial class AddedContact
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -317,10 +320,6 @@ namespace SneakPeak.Migrations
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
-
-                    b.Property<string>("Size")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
