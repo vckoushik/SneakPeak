@@ -38,5 +38,5 @@ Contributions to SneakPeak are welcome! If you have suggestions for new features
 
 ## Screenshots
 
-![Homepage](SneakPeak/wwwroot/imageshomepage.jpg)
+![Homepage](https://github.com/vckoushik/SneakPeak/blob/main/SneakPeak/wwwroot/images/homepage.jpg)
 *Homepage of SneakPeak*
