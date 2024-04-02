@@ -38,5 +38,5 @@ Contributions to SneakPeak are welcome! If you have suggestions for new features
 
 ## Screenshots
 
-![Homepage](/wwwroot/images/homepage.jpg)
+![Homepage](SneakPeak/wwwroot/imageshomepage.jpg)
 *Homepage of SneakPeak*
