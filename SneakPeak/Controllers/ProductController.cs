@@ -40,7 +40,7 @@ namespace SneakPeak.Controllers
 
         
         [HttpGet] // This attribute specifies that the action responds to HTTP GET requests
-        [Route("product/{id:int}")]
+        [Route("details/{id:int}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
