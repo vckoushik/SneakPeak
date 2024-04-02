@@ -40,3 +40,9 @@ Contributions to SneakPeak are welcome! If you have suggestions for new features
 
 ![Homepage](https://github.com/vckoushik/SneakPeak/blob/main/SneakPeak/wwwroot/images/homepage.jpg)
 *Homepage of SneakPeak*
+![Shoppage](https://github.com/vckoushik/SneakPeak/blob/main/SneakPeak/wwwroot/images/Shop.jpg)
+*Shop Page*
+![Cart](https://github.com/vckoushik/SneakPeak/blob/main/SneakPeak/wwwroot/images/Cart.jpg)
+*Cart Page*
+![Orders](https://github.com/vckoushik/SneakPeak/blob/main/SneakPeak/wwwroot/images/Orders%20Page.png)
+*Orders Page of SneakPeak*
